@@ -5,7 +5,7 @@ html {
 
 body {
     width: 100%;
-    background-image: url("https://czochahelper.site/images/pattern.png");
+    background-image: url("https://anzuj.github.io/czocha/images/pattern.png");
     background-color: #2A355E;
     background-attachment: scroll;
     background-repeat: repeat;
@@ -98,7 +98,7 @@ h2 {
     padding-bottom: 3%;
     
     background-color: #edd7b0;
-    background-image: url("https://czochahelper.site/images/fresh-snow.png");
+    background-image: url("https://anzuj.github.io/czocha/images/fresh-snow.png");
 }
 
 .lesson:hover {
