@@ -1,0 +1,3 @@
+# czocha
+
+Timetable generator

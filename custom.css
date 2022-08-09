@@ -1,0 +1,326 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    background-image: url("https://anzuj.github.io/czocha/images/pattern.png");
+    background-color: #2A355E;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    font-family: 'Poppins', serif;
+}
+
+.content{
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+#days .active {
+    background-color: rgba(134, 118, 73, 0.425) !important;
+    font-size: 0.8rem;
+    padding: 0;
+}
+
+#days .active:hover {
+    color: #2D365F !important;
+  
+}
+
+#days li {
+margin: 3px -1px;
+}
+
+#days .nav-link {
+    padding: 1px 4px;
+}
+
+
+/* navbar */
+
+.nav-link {
+    background-color: #2D365F !important;
+    margin: 0 2px;
+    border-radius: 0px !important;
+    text-transform: uppercase;
+    font-family: 'Unica One', sans-serif; 
+    font-size: 1rem !important;
+    padding: 4px 6px;
+}
+
+.nav-link:hover{
+    background-color: rgb(60, 72, 124) !important;
+}
+
+.nav-item a{
+    color: white !important;
+    margin-top: 3px;
+}
+
+
+img.tie {
+    height: 20px;
+}
+
+img.logo {
+    height: 18px;
+    mix-blend-mode:multiply;
+}
+
+h1 {
+    font-size: 4em !important;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: 'Girassol', serif !important;
+}
+
+h3 {
+    font-family: 'Girassol', serif !important;
+}
+
+h2 {
+    font-family: 'Girassol', serif !important;
+    font-size: 2rem;
+}
+
+.yeartext,
+.pathtext {
+    margin-bottom: -0.6rem !important;
+    font-family: "Merriweather", serif;
+}
+
+.container.main {
+    width: 60% !important;
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 3%;
+    
+    background-color: #edd7b0;
+    background-image: url("https://anzuj.github.io/czocha/images/fresh-snow.png");
+}
+
+.lesson:hover {
+    color: rgb(101, 120, 194);
+}
+
+
+#classResult {
+    visibility: hidden;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+#intro {
+    visibility: visible;
+    margin-top: 160px; 
+    font-family: "Merriweather", serif;
+}
+
+.time {
+    color: gray;
+    font-size: 0.7rem;
+    margin-bottom: -8px;
+}
+
+
+.location {
+    font-size: 0.7rem;
+    font-family:"Segoe UI", sans-serif;
+    color: gray;
+    margin-top: -2%;
+    font-weight: 400;
+}
+
+.separator {
+    margin-bottom: -6px;
+    font-size: 0.8rem;
+    padding: 2%;
+    color: gray;
+}
+
+
+.lesson {
+    margin-bottom: -10px;
+    font-weight: 500;
+    color: rgb(52, 58, 85);
+    font-family: 'Girassol', serif !important;
+    letter-spacing: 0.3px;
+}
+
+#lunch-wrapper {
+    background-color: rgba(250, 245, 235, 0.808);
+    width: 70%;
+    margin: 3px auto;
+
+}
+
+
+i {
+    display: block;
+    font-size: 2rem;
+}
+
+/* buttons */
+.col-container .btn:focus {
+    background-color: #2D365F;
+}
+
+.col-container .btn:hover {
+    background-color: rgb(60, 72, 124) !important;
+    transform: scale(1.05);
+}
+
+.col-container .btn {
+    width: 215px !important;
+    padding-top:10px !important;
+    padding-bottom:10px !important;
+    border-radius: 0px !important;
+    text-transform: uppercase;
+    font-family: 'Unica One', sans-serif; 
+    font-size: 1.3rem !important;
+    transition: transform .2s;
+}
+
+.col-container .btn-secondary:not(:disabled):not(.disabled).active {
+    background-color: #2D365F !important;
+}
+
+.credits{
+    color: rgba(128, 128, 128, 0.733);
+    padding-top: 45px;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.lyrics, #spells {
+    font-family: Gupter, sans-serif;
+}
+
+#spells p {
+    text-align: left;
+   line-height: 1.1rem;
+}
+
+
+.credits a{
+    color: rgb(103, 87, 173) !important;
+}
+
+.card {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0px;
+    transition: transform 0.2s;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    word-break: break-word;
+}
+
+.stretched-link {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+ul.songlist {
+    list-style-type: none;
+    margin-bottom: 1rem;
+    padding-inline-start: 0px !important;
+
+}
+
+ .songlist li{
+margin: 3px;
+
+} 
+
+.songlist a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.songlist a:hover {
+    background-color: rgb(60, 72, 124) !important;
+}
+
+
+ .up a {
+ font-family: 'Unica One', sans-serif; 
+    color: rgb(255, 255, 255) !important;
+} 
+
+h1 a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+
+.up i {
+    font-size: 1rem;
+}
+
+.up{
+    padding:1rem;
+    margin: 0 auto;
+}
+
+.up, .back {
+    width: 100px;
+    margin: 0 auto;
+}
+
+/* making content better on mobile */
+@media only screen and (max-width: 600px) {
+    .container.main {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    #lunch-wrapper {
+        margin: 4px auto;
+    
+    }
+    
+
+    .col-container .btn {
+        width: 140px !important;
+        font-size: 0.9rem !important;
+    }
+
+    img.logo {
+        height: 15px;
+    }
+
+    img.tie {
+        height: 17px;
+    }
+
+    #intro {
+        font-size: 1rem !important;
+    }
+
+    #classResult {
+        font-size: 1.2rem !important;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    h3{
+        font-size: 1.25rem !important;
+    }
+
+    .lyrics h3 {
+        font-size: 1.5rem !important;
+    }
+
+}
